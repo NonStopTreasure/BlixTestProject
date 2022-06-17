@@ -1,0 +1,34 @@
+.menu-list__container{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background: saddlebrown;
+}
+.menu-list__ul{
+    margin: 0 auto;
+    width:  60vw;
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.menu-list__li{
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 5px;
+    color: wheat;
+
+}
+.menu-list__li:hover{
+    cursor: pointer;
+    background: #8b2322;
+}
+
+.menu-list__li:first-child{
+    margin-left: 20px;
+}
+.menu-list__li:last-child{
+    margin-right: 20px;
+}
+.menu-list__li_selected{}
